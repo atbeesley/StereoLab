@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="StereoLab" target="1.5" />
+      <module name="StereoLab" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
