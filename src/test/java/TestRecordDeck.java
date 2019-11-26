@@ -23,5 +23,18 @@ public class TestRecordDeck {
 
     }
 
+    @Test
+    public void canPlay(){
+        recordDeck.play("Dancing On The Ceiling");
+        assertEquals("Dancing On The Ceiling", recordDeck.getPlayingSong());
+    }
+
+    @Test
+    public void canStopPlaying(){
+        recordDeck.play("Straight Outta Compton");
+        recordDeck.stopPlaying();
+        assertEquals("",recordDeck.getPlayingSong());
+    }
+
 
 }

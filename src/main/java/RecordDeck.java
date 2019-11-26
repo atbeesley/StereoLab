@@ -1,4 +1,4 @@
-public class RecordDeck {
+public class RecordDeck extends Component implements IPlay {
 
     private String name;
     private int playSpeed;
@@ -15,5 +15,9 @@ public class RecordDeck {
 
     public int getPlaySpeed() {
         return this.playSpeed;
+    }
+
+    public void play(String vinylName){
+         this.playingSong = vinylName;
     }
 }

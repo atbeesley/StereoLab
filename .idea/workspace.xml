@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb6b5a8e-94e0-41f1-a123-df2b968cdbc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRecordDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecordDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRecordDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRecordDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RecordDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RecordDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRecordDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRecordDeck.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,10 +35,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1U9VHNZuyqXcUkgYyabxcjwzyRE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in StereoLab">
+  <component name="RunManager" selected="JUnit.TestRecordDeck.canStopPlaying">
     <configuration name="All in StereoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,8 +81,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRecordDeck.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRecordDeck" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRecordDeck.canStopPlaying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRecordDeck" />
+      <option name="METHOD_NAME" value="canStopPlaying" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRecordDeck.canStopPlaying" />
+        <item itemvalue="JUnit.TestRecordDeck.canPlay" />
         <item itemvalue="JUnit.All in StereoLab" />
         <item itemvalue="JUnit.TestRadio" />
       </list>
